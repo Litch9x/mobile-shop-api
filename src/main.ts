@@ -17,7 +17,7 @@ async function bootstrap() {
 
   // ✅ BẬT CORS NGAY SAU KHI KHỞI TẠO APP
   app.enableCors({
-    origin: 'https://mobile-shop-five-ochre.vercel.app', // Cho phép frontend gọi API
+    origin: 'https://mobile-shop-phi.vercel.app', // Cho phép frontend gọi API
     credentials: true, // Cho phép gửi cookies & authentication token
     allowedHeaders: ['Content-Type', 'Authorization', 'token'], // Cho phép header `token`
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'], // Cho phép các method
